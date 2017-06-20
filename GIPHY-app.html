@@ -40,11 +40,6 @@
         // Creating a div to hold the animal
         var animalDiv = $("<div class='animal'>");
 
-  ////////////////
- //Ignore Above//
-////////////////
-
-
 
           // Retrieving the URL for the image
           var imgURL = response.Poster;
@@ -60,9 +55,7 @@
       }
 
 
-  ////////////////////////////////////////////////
- // Function for displaying animal data/buttons//
-////////////////////////////////////////////////
+ // Function for displaying animal data/buttons
       function renderButtons() {
 
         // Deleting the animals prior to adding new animals
@@ -90,13 +83,9 @@
         }
       }
 
-  ////////////////
- //End Function//
-////////////////
 
-  ///////////////////////////////////////////////////////////////////
- // This function handles events where a animal button is clicked //
-///////////////////////////////////////////////////////////////////
+
+ // This function handles events where a animal button is clicked 
 
       $("#add-animal").on("click", function(event) {
         event.preventDefault();
@@ -117,9 +106,6 @@
       // Calling the renderButtons function to display the intial buttons
       renderButtons();
 
-  ////////////////
- //End Function//
-////////////////
 
     </script>
   </div>
